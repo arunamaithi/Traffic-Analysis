@@ -11,8 +11,9 @@ URL_id     Anonymous_id_observation_1  Anonymous_id_observation_2
 ## output_2.txt format
 Here the output columns will be
 ```
-Anonymous_id    Matched_URL_id_obs_1     Matched_URL_id_obs_2
-(line_no)
-1                 5                            9
+Anonymous_id       Matched_URL_id       Matched_URL_id
+(line_no [1-35])
+(both obs-1 & obs-2)
+1                    5                            9
 ````
 
