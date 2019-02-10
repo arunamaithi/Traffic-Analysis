@@ -1,4 +1,8 @@
-import requests, os, json
+"""
+No need to execute this
+
+Optional code
+"""import requests, os, json
 
 model_id = "c0c3c611-dc87-4576-bb11-53a265d55a60" #your model id
 AUTH_KEY = "V1_-CV8arzT-DTTH2cu6d0DhThUQ1y-l" # your API key
