@@ -1,20 +1,23 @@
-If you want to test the code for given dataset, Follow the steps
+### If you want to test the code for given dataset, Follow the steps
 
-1)
+1 .
+```
 git clone https://github.com/arunamaithi/Traffic-Analysis.git
 cd Traffic-Analysis
 sudo pip install requests
-2)
+```
+2.
+```
 python ./code/prediction.py > "Give your output file name"
-
+```
 Which will give you the output file
 
 
 
-If you want to create a new classification model
+### If you want to create a new classification model
 
 The great thing about NanoNets is that anyone can upload data and build their own models.
 
-1. Using a GUI: https://app.nanonets.com/ImageCategorization/
+Using a  [Nenonets](GUI: https://app.nanonets.com/ImageCategorization/).
 
----> Easy to build ML models <----
+:+1: ---> Easy to build ML models <---- :+1:
