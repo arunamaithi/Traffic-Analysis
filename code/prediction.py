@@ -1,3 +1,8 @@
+"""
+We can modify based on our requirements 
+
+This code has been modified based my output requirment
+"""
 import requests, os, sys, json, numpy, operator, itertools
 
 model_id = "c0c3c611-dc87-4576-bb11-53a265d55a60" # you own model id
