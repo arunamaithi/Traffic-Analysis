@@ -1,4 +1,9 @@
-import requests, os, json
+"""
+Execute this only when you create your own model with your own API key and model id, other wise don't execute this
+
+It will take more than 30 mins to train 
+
+"""import requests, os, json
 
 model_id = "c0c3c611-dc87-4576-bb11-53a265d55a60" # your model id
 AUTH_KEY = "V1_-CV8arzT-DTTH2cu6d0DhThUQ1y-l" # your API key
