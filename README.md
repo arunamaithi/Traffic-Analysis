@@ -20,4 +20,5 @@ The great thing about NanoNets is that anyone can upload data and build their ow
 
 Using a  [Nenonets](https://app.nanonets.com/ImageCategorization/).
 
-:+1: ---> Easy to build ML models <---- :+1:
+
+:+1: Easy way to build ML models :+1:
