@@ -1,3 +1,11 @@
+"""
+This file is used to create new classification model using ML nanonets API
+
+Execute this file if you want to create a new model, if you want to execute a already trained model , execute prediction model.py directly
+
+If you want to create own classification model, use your own API key and model_id
+"""
+
 import requests, os, json, sys
 
 # run this if you want to create a new model again with your API key
@@ -5,6 +13,8 @@ import requests, os, json, sys
 BASE_URL = 'https://app.nanonets.com/api/v2/ImageCategorization/'
 AUTH_KEY = "V1_-CV8arzT-DTTH2cu6d0DhThUQ1y-l" # you have to place your own API key
 url = BASE_URL + "Model/"
+
+# you can change catagories based on your own model
 
 categories = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35"]
 ext = ['.jpeg', '.jpg', ".JPG", ".JPEG",".png", ".PNG"]
@@ -22,5 +32,5 @@ if not("model_id" in result.keys()):
     sys.exit(1)
 model_id = result["model_id"]
 
-print("NEXT RUN: export NANONETS_MODEL_ID=" + model_id)
+print("NEXT RUN: export NANONETS_MODEL_ID=" + model_id) #execute this if this is your own new model
 print("THEN RUN: python ./code/upload-training.py")
