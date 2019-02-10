@@ -1,3 +1,11 @@
+"""
+This code is to upload traning dataset
+
+Set training dataset path correctly before execute
+
+Use your own API key and model id if you create model for your dataset
+
+"""
 import os, requests
 
 BASE_URL = 'https://app.nanonets.com/api/v2/ImageCategorization/'
@@ -20,5 +28,5 @@ for category in categories:
         if response.status_code > 250 or response.status_code<200:
             print(response.text), response.status_code
 
-print("\n\n\nNEXT RUN: python ./code/train-model.py")
+print("\n\n\nNEXT RUN: python ./code/train-model.py") 
 
